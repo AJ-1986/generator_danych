@@ -47,7 +47,7 @@
                 $los_nazwisko = rand(0, 49);
                 $los_poczty = rand(0, 9);
                 $email_plus = rand(0, 9) . rand(0, 9) . rand(0, 99) . rand(0, 9);
-                $los_email = trim($imiona[$los_imie]) . '_' . trim($nazwiska[$los_nazwisko]) . '_' . $email_plus . '@' . $poczty[$los_poczty];
+                $los_email = trim($imiona[$los_imie]) . '_' . trim($nazwiska[$los_nazwisko]) . '_' . $email_plus . '@' . trim($poczty[$los_poczty]);
                 $haslo = md5($imiona[$los_imie] . $nazwiska[$los_nazwisko] . $los_email . $email_plus);
                 $data_rej = rand(1, 27) . '-' . rand(1, 12) . '-' . rand(2016, 2022);
                                 
