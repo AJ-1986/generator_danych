@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(92, 70, 112);
+}
+h1.naglowek {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: rgb(139, 150, 241);
+}
+p.opis {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: aqua;
+}
+ul, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: goldenrod;
+}
+td.opis_pola {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: goldenrod;    
+}
+input[type=text].il_wierszy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: darkslategrey;
+    color: silver; 
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;     
+}
+input[type=submit].przy_generuj {
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: rgb(208, 255, 0);    
+    background-color: rgb(199, 56, 0);
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit].przy_generuj:hover {   
+    background-color: rgb(255, 153, 0);
+}
+button.powrot {
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: rgb(255, 255, 255);    
+    background-color: rgb(25, 85, 17);
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.powrot:hover {
+    background-color: rgb(33, 121, 21);
+}
+div.centrum {
+    margin: 0 auto;
+    width: 90%;
+}
+table.dane {
+    width: 100%;
+}
+td.kol_dane1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    height: 50px;
+}
+td.kol_dane2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;    
+    color: silver;    
+    text-align: center;
+    height: 16px;
+}
