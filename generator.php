@@ -2,7 +2,7 @@
 <html lang="pl-PL">
     <head>
         <meta charset="UTF-8">
-        <meta name="autor" content="goro goroslawki">
+        <meta name="autor" content="Adam Jurewicz">
         <title>Generator danych - wykonanie funkcji</title>
         <link rel="stylesheet" href="styl.css">
         <title>Generator kont użytkowników</title>
