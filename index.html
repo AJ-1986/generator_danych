@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="autor" content="goro goroslawki">
+        <title>Generator danych</title>
+        <link rel="stylesheet" href="styl.css">
+        <title>Generator kont użytkowników</title>
+    </head>
+    <body>
+        <h1 class="naglowek">Generator losowych danych kont użytkowników</h1>
+        <p class="opis">
+            Zadaniem narzędzia jest generowanie losowych kont użytkowników<br>
+            w celu wykorzystania jako - przykładowo zasoby do baz danych.
+        </p>
+        <p class="opis">
+            Wygenerowane zostaną dane o następującej informacji:
+            <ul>
+                <li>ID</li>
+                <li>Imię</li>
+                <li>Nazwisko</li>
+                <li>Adres e-mail</li>
+                <li>Hasło (szyfrowane: md5)</li>
+                <li>Data rejestracji</li>
+            </ul>
+        </p>
+        <p class="opis">
+            W polu formularza wpisz ilość wierszy jaka
+            ma zostać wygenerowana.<br>Następnie kliknij "Generuj".
+        </p>
+        <form method="post" action="generator.php">
+            <table>
+                <tr>
+                    <td class="opis_pola">Ilość wierszy:</td>
+                    <td><input class="il_wierszy" type="text" name="ilosc_wierszy"></td>
+                    <td><input class="przy_generuj" type="submit" value="Generuj"></td>
+                    <td><p class="opis">Maksymalnie: 1000.</p></td>
+                </tr>
+            </table>
+            <input type="hidden" name="aktywuj_gen" value="343$#@232">
+        </form>
+    </body>
+</html>
