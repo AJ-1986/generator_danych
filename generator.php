@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <meta name="autor" content="Adam Jurewicz">
         <title>Generator danych - wykonanie funkcji</title>
-        <link rel="stylesheet" href="styl.css">
-        <title>Generator kont użytkowników</title>
+        <link rel="stylesheet" href="styl.css">        
         <script language="javascript" type="text/javascript">
             function powrot() {
                 document.location='index.html';
